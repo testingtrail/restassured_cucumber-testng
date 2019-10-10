@@ -14,7 +14,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Secondtest {
+public class EasyTest {
 	@Test
 	public void secondhttpPost() throws JSONException,InterruptedException {
 

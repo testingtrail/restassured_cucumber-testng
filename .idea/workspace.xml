@@ -1,51 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba8e3498-bfd0-4ea5-9b53-d71da6b1f3fc" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="ba8e3498-bfd0-4ea5-9b53-d71da6b1f3fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssured.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssured.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Secondtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/EasyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/GetPost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/GetPost.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/RestAssuredExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/RestAssuredExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Secondtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/BDDStyleMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/BDDStyleMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GetPostSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/GetPostSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/PostProfileSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/PostProfileSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Secondtest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#1732#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,129 +38,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/TestInitialize.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/BDDStyleMethod.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/GetPost.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PostProfile.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/PostProfileSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/DeletePost.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PutPost.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/Secondtest.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RestAssured" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RestAssured" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-90" />
-    <option name="y" value="11" />
-    <option name="width" value="1406" />
-    <option name="height" value="810" />
-  </component>
+  <component name="ProjectId" id="1S17WMqOnm0GeK0Kly5Bym329Lc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569012885012" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570718921736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,16 +70,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Secondtest">
-    <configuration name="Scenario: Verify Parameter of Get" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify author of the post">
+    <configuration name="Feature: GetPost" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetPost.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RestAssured" />
-      <option name="NAME_FILTER" value="^Verify Parameter of Get$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Parameter of Get$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Parameter of Get" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: GetPost" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -213,15 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Post operation for Profile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify author of the post" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetPost.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RestAssured" />
-      <option name="NAME_FILTER" value="^Verify Post operation for Profile$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Post operation for Profile$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Post operation for Profile" />
+      <option name="NAME_FILTER" value="^Verify author of the post$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify author of the post$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify author of the post" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -270,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Secondtest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -279,7 +155,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.Secondtest" />
+      <option name="MAIN_CLASS_NAME" value="utilities.EasyTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -288,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Verify Parameter of Get" />
-      <item itemvalue="Cucumber java.Scenario: Verify Post operation for Profile" />
       <item itemvalue="Cucumber java.Scenario: Veriry DELETE operation after POST" />
       <item itemvalue="Cucumber java.Scenario: Veriry PUT operation after POST" />
-      <item itemvalue="TestNG.Secondtest" />
+      <item itemvalue="TestNG.EasyTest" />
+      <item itemvalue="Cucumber java.Feature: GetPost" />
+      <item itemvalue="Cucumber java.Scenario: Verify author of the post" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Secondtest" />
+        <item itemvalue="Cucumber java.Scenario: Verify author of the post" />
+        <item itemvalue="Cucumber java.Feature: GetPost" />
+        <item itemvalue="TestNG.EasyTest" />
         <item itemvalue="Cucumber java.Scenario: Veriry PUT operation after POST" />
         <item itemvalue="Cucumber java.Scenario: Veriry DELETE operation after POST" />
-        <item itemvalue="Cucumber java.Scenario: Verify Parameter of Get" />
-        <item itemvalue="Cucumber java.Scenario: Verify Post operation for Profile" />
       </list>
     </recent_temporary>
   </component>
@@ -317,38 +193,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Secondtest - 2019.09.20 at 14h 22m 46s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 24m 02s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 24m 28s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 25m 37s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 32m 54s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 37m 56s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 38m 21s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 41m 03s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 46m 45s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Secondtest - 2019.09.20 at 14h 52m 58s.xml">
-      <configuration name="Secondtest" configurationId="TestNG" />
-    </history-entry>
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -358,37 +202,16 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="UI Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3747954" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896462" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22144112" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32569557" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" weight="0.26701966" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295626" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -438,204 +261,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/GetPost.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TestInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PostProfile.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PostProfileSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PutPost.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/DeletePost.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/BDDStyleMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Secondtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#1732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>RestAssured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: commons-codec:commons-codec:1.9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

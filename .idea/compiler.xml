@@ -9,8 +9,13 @@
         <module name="RestAssured" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RestAssured" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="RestAssured" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RestAssured" options="" />
+    </option>
   </component>
 </project>
