@@ -77,9 +77,17 @@ public class RestAssuredExtension {
         return Request.get(url);
     }
 
+    public static ResponseOptions<Response> GetWithQueryParams(String url, Map<String,String> queryParams){
+        //Act
+        Request.queryParams(queryParams);
+        return Request.get(url);
+    }
+
+
     public static ResponseOptions<Response> PutOpsWithBodyAndPathParams(String url, HashMap<String, String> body, HashMap<String, String> pathParams) {
         Request.pathParams(pathParams);
         Request.body(body);
         return Request.put(url);
     }
+
 }

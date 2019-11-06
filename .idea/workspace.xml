@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8e3498-bfd0-4ea5-9b53-d71da6b1f3fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Verify author of the post">
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify GET operation for complex data">
     <configuration name="Feature: GetPost" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetPost.feature" />
@@ -61,6 +63,25 @@
       <module name="RestAssured" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: GetPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify GET operation for complex data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ComplexDataGet.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RestAssured" />
+      <option name="NAME_FILTER" value="^Verify GET operation for complex data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify GET operation for complex data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify GET operation for complex data" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -80,25 +101,6 @@
       <option name="NAME_FILTER" value="^Verify author of the post$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify author of the post$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify author of the post" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Veriry DELETE operation after POST" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/DeletePost.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="RestAssured" />
-      <option name="NAME_FILTER" value="^Veriry DELETE operation after POST$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Veriry DELETE operation after POST$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Veriry DELETE operation after POST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -146,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Veriry DELETE operation after POST" />
       <item itemvalue="Cucumber java.Scenario: Veriry PUT operation after POST" />
       <item itemvalue="Cucumber java.Feature: GetPost" />
       <item itemvalue="Cucumber java.Scenario: Verify author of the post" />
       <item itemvalue="TestNG.EasyTest" />
+      <item itemvalue="Cucumber java.Scenario: Verify GET operation for complex data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Verify GET operation for complex data" />
         <item itemvalue="Cucumber java.Scenario: Verify author of the post" />
         <item itemvalue="Cucumber java.Feature: GetPost" />
         <item itemvalue="TestNG.EasyTest" />
         <item itemvalue="Cucumber java.Scenario: Veriry PUT operation after POST" />
-        <item itemvalue="Cucumber java.Scenario: Veriry DELETE operation after POST" />
       </list>
     </recent_temporary>
   </component>
