@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8e3498-bfd0-4ea5-9b53-d71da6b1f3fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
