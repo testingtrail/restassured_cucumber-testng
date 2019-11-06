@@ -80,7 +80,7 @@ public class RestAssuredExtension {
     public static ResponseOptions<Response> GetWithQueryParams(String url, Map<String,String> queryParams){
         //Act
         Request.queryParams(queryParams);
-        return Request.get(url); 
+        return Request.get(url);
     }
 
 
