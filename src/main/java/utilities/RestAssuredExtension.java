@@ -8,8 +8,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
 
-import java.net.URI;
-import java.net.URISyntaxException;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,16 +25,6 @@ public class RestAssuredExtension {
         //var requestSpec = builder.build();
         RequestSpecification requestSpec = builder.build();
         Request = RestAssured.given().spec(requestSpec);
-    }
-
-    public static void GetOpsWithPathParam(String url, Map<String, String> pathParams){
-        //Act
-        Request.pathParams(pathParams);
-        try {
-            Request.get(new URI(url));
-        }catch (URISyntaxException e){
-            e.printStackTrace();
-        }
     }
 
     public static ResponseOptions<Response> GetOps(String url){

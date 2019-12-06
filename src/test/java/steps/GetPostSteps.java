@@ -1,7 +1,6 @@
 package steps;
 
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -12,18 +11,21 @@ import pojo.Address;
 import pojo.Location;
 import pojo.Posts;
 import utilities.RestAssuredExtension;
+import utilities.RestAssuredExtensionv2;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+
 
 public class GetPostSteps{
 
     public static ResponseOptions<Response> response;
+    public static String token;
 
     @Given("^I perform GET operation for \"([^\"]*)\"$")
     public void iPerformGETOperationFor(String url) throws Throwable {
@@ -55,12 +57,17 @@ public class GetPostSteps{
     }
 
     @Given("^I Perform GET operation for path parameter for address \"([^\"]*)\"$")
-    public void iPerformGETOperationForPathParameterForAddress(String url, DataTable table) throws Throwable {
+    public void iPerformGETOperationForPathParameterForAddress(String uri, DataTable table) throws Throwable {
        var data = table.raw();
        Map<String, String> queryParams = new HashMap<>();
        queryParams.put("id", data.get(1).get(0));
 
-       response = RestAssuredExtension.GetWithQueryParams(url, queryParams);
+       // Before RestAssuredExtensionv2
+       //response = RestAssuredExtension.GetWithQueryParams(url, queryParams);
+
+        // With RestAssuredExtensionv2
+        RestAssuredExtensionv2 restAssuredExtensionv2 = new RestAssuredExtensionv2(uri, "GET", token);
+        //restAssuredExtensionv2.ExecuteAPIWithQueryParams(queryParams);
 
     }
 
@@ -77,5 +84,12 @@ public class GetPostSteps{
                                                             .findFirst().orElse(null);
 
         assertThat(address.getStreet(), equalTo(streetName));
+    }
+
+    @Then("^I should see the author name as \"([^\"]*)\" with JSON validation$")
+    public void iShouldSeeTheAuthorNameAsWithJSONValidation(String arg0) throws Throwable {
+        // returns the body as string
+       var responseBody = response.body().asString();
+       assertThat(responseBody, matchesJsonSchemaInClasspath("posts.json"));
     }
 }

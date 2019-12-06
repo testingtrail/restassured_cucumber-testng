@@ -13,4 +13,8 @@ Feature:
     Given I perform GET operation for "/posts"
     Then I should verify GET Parameter
 
+  Scenario: Verify GET operator with Json validation
+    Given I perform GET operation for "/posts/1"
+    Then I should see the author name as "Karthik KK" with JSON validation
+
 
