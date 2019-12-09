@@ -2,7 +2,7 @@
 // this is simpler POST request
 
 
-package utilities;
+package legacy;
 
 
 import org.json.JSONArray;

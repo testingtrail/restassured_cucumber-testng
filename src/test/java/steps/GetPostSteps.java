@@ -10,6 +10,7 @@ import io.restassured.response.ResponseOptions;
 import pojo.Address;
 import pojo.Location;
 import pojo.Posts;
+import utilities.APIConstants;
 import utilities.RestAssuredExtension;
 import utilities.RestAssuredExtensionv2;
 
@@ -56,6 +57,7 @@ public class GetPostSteps{
         BDDStyleMethod.PerformQueryParameters();
     }
 
+    //This one is using new RestAssuredExtensionv2
     @Given("^I Perform GET operation for path parameter for address \"([^\"]*)\"$")
     public void iPerformGETOperationForPathParameterForAddress(String uri, DataTable table) throws Throwable {
        var data = table.raw();
@@ -67,7 +69,8 @@ public class GetPostSteps{
 
         // With RestAssuredExtensionv2
         RestAssuredExtensionv2 restAssuredExtensionv2 = new RestAssuredExtensionv2(uri, "GET", token);
-        //restAssuredExtensionv2.ExecuteAPIWithQueryParams(queryParams);
+        response = restAssuredExtensionv2.ExecuteWithQueryParams(queryParams);
+
 
     }
 
@@ -80,8 +83,8 @@ public class GetPostSteps{
         //we need to filter the results as we have many addresses in just one location
         //  so we use stream to get the type to be equals as the one we are passing as parameter from the
         //  feature file
-        Address address  = location[0].getAddress().stream().filter(x -> x.getType().equalsIgnoreCase(type))
-                                                            .findFirst().orElse(null);
+        Address address = location[0].getAddress().stream().filter(x -> x.getType().equalsIgnoreCase(type))
+                .findFirst().orElse(null);
 
         assertThat(address.getStreet(), equalTo(streetName));
     }
@@ -91,5 +94,19 @@ public class GetPostSteps{
         // returns the body as string
        var responseBody = response.body().asString();
        assertThat(responseBody, matchesJsonSchemaInClasspath("posts.json"));
+    }
+
+    //This one is using new RestAssuredExtensionv2
+    @Given("^I perform authentication operation for \"([^\"]*)\" with body$")
+    public void iPerformAuthenticationOperationForWithBody(String uri, DataTable table) throws Throwable {
+        var data = table.raw();
+
+        HashMap<String, String> body =  new HashMap<>();
+        body.put("email", data.get(1).get(0));
+        body.put("password", data.get(1).get(1));
+
+        RestAssuredExtensionv2 restAssuredExtensionv2 = new RestAssuredExtensionv2(uri, APIConstants.ApiMethods.POST, null);
+        token = restAssuredExtensionv2.Authenticate(body);
+
     }
 }

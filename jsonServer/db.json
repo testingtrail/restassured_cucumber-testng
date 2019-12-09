@@ -44,35 +44,56 @@
     "postId": "2"
   },
   "location": [
-  {
-	"id": 1, 
-	"city": "Auckland",
-	"country": "New Zealand",
-	"address":[
-		{
-		 "street": "1st street",
-        "flat_no": "4A",
-        "pincode": 707,
-        "type": "primary"
-		},
-		{
-		"street": "1st street",
-        "flat_no": "4A",
-        "pincode": 808,
-        "type": "secondary"
-		}
-	]
-  },
-  {
-	"id": 2, 
-	"city": "Chenai",
-	"country": "India",
-	"address":{
-		"street": "2nd street",
+    {
+      "id": 1,
+      "city": "Auckland",
+      "country": "New Zealand",
+      "address": [
+        {
+          "street": "1st street",
+          "flat_no": "4A",
+          "pincode": 707,
+          "type": "primary"
+        },
+        {
+          "street": "1st street",
+          "flat_no": "4A",
+          "pincode": 808,
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Chenai",
+      "country": "India",
+      "address": {
+        "street": "2nd street",
         "flat_no": "4A",
         "pincode": 907,
         "type": "primary"
-	}
-  }
+      }
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
   ]
 }

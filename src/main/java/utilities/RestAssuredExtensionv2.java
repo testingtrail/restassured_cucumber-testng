@@ -1,6 +1,11 @@
 package utilities;
 
+import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.response.ResponseOptions;
+import io.restassured.specification.RequestSpecification;
 
 import java.util.Map;
 
@@ -19,10 +24,39 @@ public class RestAssuredExtensionv2 {
             builder.addHeader("Authorization", "Bearer " + token);
     }
 
+    private ResponseOptions<Response> ExecuteAPI(){
+        RequestSpecification requestSpecification = builder.build();
+        RequestSpecification request = RestAssured.given();
+        request.contentType(ContentType.JSON);
+        request.spec(requestSpecification);
+
+        if(this.method.equalsIgnoreCase(APIConstants.ApiMethods.POST))
+            return request.post(this.url);
+        else if(this.method.equalsIgnoreCase(APIConstants.ApiMethods.DELETE))
+            return request.delete(this.url);
+        else if(this.method.equalsIgnoreCase(APIConstants.ApiMethods.GET))
+            return request.get(this.url);
+
+        return null;
+    }
+
+
+
     public String Authenticate(Map<String, String> body){
         builder.setBody(body);
-        return "hola";
+        return ExecuteAPI().getBody().jsonPath().get("access_token");
     }
+
+    /**
+     * Executing API with query params being passed as the input of it
+     * @param queryPath
+     * @return Reponse
+     */
+    public ResponseOptions<Response> ExecuteWithQueryParams(Map<String, String> queryPath) {
+        builder.addQueryParams(queryPath);
+        return ExecuteAPI();
+    }
+
 
 
 }

@@ -12,6 +12,13 @@ Json Fake server
 - Link db.json file with server with this command in db.json folder: json-server db.json
 - You can now access with http://localhost:3000/posts or http://localhost:3000/ for homepage or http://localhost:3000/posts/1 for first post
 
+Authorization with Bearer Token
+-------------------------------
+Within the jsonServer folder there are some package.json and javascript files that creates authorization within the JSON
+fake server, with the purpose of testing token authentication within this project.
+- Instead of 'json-server db.json' use 'npm install' the first time and then 'npm run start-auth'
+each time you want to run it. 
+- That will start the authorization code that has been created
 
 Deserializing JSON to POJO
 --------------------------
@@ -35,4 +42,4 @@ responses and transform it into classes, then we can use it as:
  ----------------------------------
  The work will be done over 'RestAssuredExtension.java' file
  - Create a new 'RestAssuredExtensionV2.java' file
- - 
+ - Create a new 'APIConstants.java' file
