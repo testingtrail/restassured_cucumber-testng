@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8e3498-bfd0-4ea5-9b53-d71da6b1f3fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonServer/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonServer/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonServer/readme.md.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/EasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/legacy/EasyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/legacy/RestAssuredExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtensionv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtensionv2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ComplexDataGet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ComplexDataGet.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/DeletePost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/DeletePost.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BDDStyleMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BDDStyleMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/EasyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GetPostSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/GetPostSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/PostProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/PostProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TestInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TestInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/RestAssuredExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/RestAssuredExtensionv2.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,34 +205,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/RestAssuredExtensionv2.java</url>
-          <line>54</line>
-          <properties class="utilities.RestAssuredExtensionv2" method="ExecuteWithQueryParams">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

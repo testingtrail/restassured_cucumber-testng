@@ -6,7 +6,6 @@ import org.hamcrest.core.Is;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.containsInAnyOrder;
@@ -14,7 +13,11 @@ import static org.hamcrest.core.IsIterableContaining.hasItem;
 
 public class BDDStyleMethod {
 
-    // Checks that in the first post the author is Karthik
+    /**
+     * Checks that in the first post the author is Karthik
+     * This is using BDD style
+     * @param postNumber
+     */
     public static void SimpleGETPost(String postNumber){
         given()
             .contentType(ContentType.JSON).
@@ -24,7 +27,11 @@ public class BDDStyleMethod {
             .body("author",is("Karthik KK"));
     }
 
-    //Check that in the collection the author Karthik exist in any order
+    /**
+     * Check that in the collection the author Karthik exist in any order
+     * This is using BDD style
+     * @param
+     */
     public static void PerformContainsCollection(){
         given().
             contentType(ContentType.JSON)
@@ -35,6 +42,9 @@ public class BDDStyleMethod {
                 .statusCode(200);
     }
 
+    /**
+     * Check that in the response when requesting a post with path params the response has a specific value.
+     */
     public static void PerformPathParameters(){
         given().
             contentType(ContentType.JSON).
@@ -46,17 +56,24 @@ public class BDDStyleMethod {
             body("author",containsString("Karthik KK"));
     }
 
-    //alternative to PerformPathParameter, is much simpler
+
+    /**
+     * Check that in the response when requesting a post with query params the response has a specific value.
+     */
     public static void PerformQueryParameters(){
         given().
             contentType(ContentType.JSON).
             queryParam("id",1).
         when().
-            get("http://localhost:3000/posts/"). //here does not need the param as this is going in the queryParam
+            //here does not need the param as this is going in the queryParam
+            get("http://localhost:3000/posts/").
         then().
             body("author",hasItem("Karthik KK"));
     }
 
+    /**
+     * This one creates posts using Body Parameters instead of query params or path params
+     */
     public static  void PerformPOSTWithBodyParameter(){
         HashMap<String, String> postContent = new HashMap();
         postContent.put("id","5");

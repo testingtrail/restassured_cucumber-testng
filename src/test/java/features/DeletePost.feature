@@ -2,7 +2,7 @@ Feature: DeletePost
   Test the delete operation
 
   @smoke
-  Scenario: Veriry DELETE operation after POST
+  Scenario: Verify DELETE operation after POST
     Given I ensure to Perform POST operation for "/posts" with body as
       | id  | title  | author    |
       | 7   | Biblia | Dios      |

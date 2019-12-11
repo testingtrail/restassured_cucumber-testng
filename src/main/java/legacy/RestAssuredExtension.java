@@ -1,4 +1,4 @@
-package utilities;
+package legacy;
 
 
 import io.restassured.RestAssured;
